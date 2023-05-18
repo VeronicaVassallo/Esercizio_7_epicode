@@ -1,0 +1,117 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    text-align: center;
+}
+.grey{
+    color: rgb(112, 110, 110);
+}
+ul{
+    list-style-type: none;
+}
+header h1, header p, header ul{
+    margin: 0.5em auto;
+    padding: 0;
+}
+header ul, header p{
+    padding: 0.01em;
+}
+li{
+    display: inline-block;
+    margin: 1em 0.5em;
+}
+header li:not(:first-of-type){
+    color: rgb(241, 16, 132);
+}
+nav{
+    height: 6em;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+nav a, nav ul{
+    text-decoration: none;
+}
+nav ul{
+    margin:1em 13vw;
+    text-align: center;
+    display: flex;
+}
+nav li a{
+    color: rgb(112, 110, 110) ;
+    padding: 0.5em;
+
+}
+.light-grey{
+    border: solid 2px lightgray;
+    padding: 0.6em;
+    border-radius: 5px;
+    color: black;
+}
+figure{
+    width: 100%;
+    margin: 2em 1em;
+}
+figure img{
+    width: 21.3em;
+    border-radius: 10px;
+}
+.special{
+    border-radius: 0 0 10px 0;
+}
+section{
+    display: flex;
+}
+nav li a:hover{
+    background-color: lightgray;
+    color: black;
+    font-weight: bolder;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+.pink:hover{
+    border: solid 4px pink;
+    padding-right: 2em ;
+}
+.left{
+    margin-left: 1em;
+}
+.right{
+    margin-right: 1em;
+}
+.profile{
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+    overflow: hidden;
+}
+.profile img{
+    width: 100%;
+}
+.under{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21.4rem;
+}
+.under p{
+    display: inline-block;
+    margin: 0.3em 0.5em;
+}
+.left-icons{
+    margin-left: 3em;
+}
+.under span{
+    background-color: lightgray;
+    color: white;
+    padding: 0.2em;
+    border-radius: 5px;
+    font-size: small;
+}
+.under p{
+    font-weight: 600;
+}
